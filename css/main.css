@@ -1,14 +1,15 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-    background-image: url("austin.svg");
-    background-size: 500px 500px;
-    background-repeat: no-repeat;
-    background-position: 50% -100%;
+    margin: 50px auto;
+    width: 90%;
+    background-image: url("natural-paper.png");
+    background-size: 400px 400px;
+    background-repeat: repeat;
+    background-position: 100% 100%;
+    background-color: #f1e9d2;
+    font-family:'Montserrat', 'Arial', 'Sans-Serif';
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -19,20 +20,26 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #13F6FF;
+    color: #000000;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #13F6FF;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 6vw;
+  line-height: 1em;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  margin-top: 25px;
+  color: #B9C782;
+  opacity: .75;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #FF530D;
+    font-family:'Montserrat', 'Arial', 'Sans-Serif';
+    color: #000000;
 }
 /*footer {
     border-top: 1px solid #13F6FF;
@@ -55,6 +62,7 @@ input[type="text"], textarea {
     border: 1px solid rgba(0, 0, 0,.1);
     padding: 8px 15px;
     width: 100%;
+    font-family:'Montserrat', 'Arial', 'Sans-Serif';
     box-sizing: border-box;
 }
 input[type="email"], textarea {
@@ -65,5 +73,6 @@ input[type="email"], textarea {
     border: 1px solid rgba(0, 0, 0,.1);
     padding: 8px 15px;
     width: 100%;
+    font-family:'Montserrat', 'Arial', 'Sans-Serif';
     box-sizing: border-box;
 }
