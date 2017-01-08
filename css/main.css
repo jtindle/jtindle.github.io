@@ -5,7 +5,7 @@ body {
     background-size: 400px 400px;
     background-repeat: repeat;
     background-position: 100% 100%;
-    background-color: #f1e9d2;
+    /*background-color: #f1e9d2;*/
     font-family:'Montserrat', 'Arial', 'Sans-Serif';
 }
 
@@ -13,26 +13,31 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 1.5em;
+    color: #A9A9A9;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    font-size: 1.5em;
+    color: #A9A9A9;
 }
 a {
     text-decoration: none;
-    color: #000000;
+    color: #A9A9A9;
 }
 a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    color: #4B0082;
 }
 h1 {
-  font-family: 'Paytone One', sans-serif;
-  font-size: 6vw;
+  font-family: 'Lora', sans-serif;
+  font-size: 8vw;
   line-height: 1em;
   margin-bottom: 30px;
   letter-spacing: 3px;
   margin-top: 25px;
-  color: #B9C782;
+  color: #000000;
   opacity: .75;
 }
 p {
@@ -49,10 +54,13 @@ p {
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
+    color: #4B0082;
 }
 
 ul.posts li {
     list-style: none;
+    color: #4B0082;
+    font-size: 1.5em;
 }
 input[type="text"], textarea {
     font: inherit;
