@@ -1,8 +1,12 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-image: url("wood.jpg");
+    background-image: url("austin.svg");
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: 50% -100%;
 }
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -30,10 +34,10 @@ p {
     line-height: 1.4em;
     color: #FF530D;
 }
-footer {
+/*footer {
     border-top: 1px solid #13F6FF;
     font-size: .8em;
-}
+}*/
 
 ul.posts {
     margin: 20px auto 40px;
