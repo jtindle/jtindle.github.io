@@ -86,16 +86,14 @@ input[type="email"], textarea {
 }
 
 input[type="submit"] {
-    align-items: flex-start;
-    text-align: center;
-    cursor: default;
-    color: #4B0082;
-    background-color: buttonface;
-    font-family:'Montserrat', 'Arial', 'Sans-Serif';
-    box-sizing: border-box;
-    padding: 3px 8px 5px;
-    border-width: 100%;
-    border-style: outset;
-    border-color: buttonface;
-    border-image: initial;
+  width: 100%;
+  font-size: inherit;
+  font-weight: 600;
+  color: rgba(.76);
+  background-color: rgba(0,0,0,.2);
+  border-radius: 4px;
+  padding: 8px 15px;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,.1);
+  cursor: pointer;
 }
