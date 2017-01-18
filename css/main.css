@@ -84,3 +84,18 @@ input[type="email"], textarea {
     font-family:'Montserrat', 'Arial', 'Sans-Serif';
     box-sizing: border-box;
 }
+
+input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: #4B0082;
+    background-color: buttonface;
+    font-family:'Montserrat', 'Arial', 'Sans-Serif';
+    box-sizing: border-box;
+    padding: 3px 8px 5px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
